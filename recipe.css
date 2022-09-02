@@ -10,9 +10,9 @@ body {
 
 div.content {
     background-color: white;
-    margin: 60px 10% 80px 10%;
-    padding: 0px 30px 30px 30px;
-    min-width: 350px;
+    margin: 40px 8px 80px 8px;
+    padding: 0px 8px 20px 8px;
+    /*min-width: 350px;*/
     box-shadow: 0px 0px 8px 8px rgba(0, 0, 0, 0.1);
     overflow: visible
 }
@@ -154,7 +154,14 @@ table.instructions tr {
     height: 40px;
 }
 
-
+/*Desktop Styles */
+@media only screen and (max-width: 768px) {
+    div.content {
+        margin: 60px 10% 80px 10%;
+        padding: 0px 30px 30px 30px;
+        min-width: 350px;
+    }
+}
 
 
 /* Comment in CSS */
