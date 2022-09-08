@@ -70,20 +70,20 @@ table.info {
     bottom:0; 
     width: 100%; color: white;
     background-color: #6C829DC0;
-    height: 80px
+    height: 50px
 }
 
 /* All the td of the table that has a info class */
 table.info td {
     text-align: center;
     vertical-align: top;
-    font-size: 14px;
+    font-size: 120px;
 }
 
 table.info th {
     vertical-align: bottom;
     padding-bottom: 8px;
-    font-size: 16px;
+    font-size: 14px;
 }
 
 img.info {
@@ -161,6 +161,20 @@ table.instructions tr {
         padding: 0px 30px 30px 30px;
         min-width: 350px;
     }
+
+    table.info {
+        height: 80px
+    }
+    
+    /* All the td of the table that has a info class */
+    table.info td {
+        font-size: 14px;
+    }
+    
+    table.info th {
+        font-size: 16px;
+    }
+    
 }
 
 
